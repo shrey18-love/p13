@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import GlowCursor from '../GlowCursor.jsx';
-import loveLetter from '../writing?raw.js';
+import loveLetter from '../writing?raw';
 
 export default function App() {
   const [isNoteOpen, setIsNoteOpen] = useState(false);
